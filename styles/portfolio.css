@@ -75,6 +75,7 @@ h1 {
 }
 
 .pHeading {
+    text-align: left;
     display: block;
     margin: 5% auto;
     font-family: 'Playfair Display', serif;
@@ -143,7 +144,7 @@ h1 {
     align-items: center;
     background-color: #F9F7FE;
     width: 100vw;
-    margin: 5% 3.5%;
+    margin: 5% auto;
     border-radius: 20px;
     text-align: center;
 }
@@ -241,7 +242,7 @@ h1 {
 }
 
 .contact {
-    margin: 5% 10%;
+    margin: 5%;
     max-width: 825px;
     text-align: left;
 }
@@ -270,19 +271,26 @@ h1 {
 
     .aboutView {
         margin-top: 10%;
-        height: 100vh;
+        
+    }
+    .aboutView .startBtn{
+        margin: 8% auto;
     }
 
     .contact {
         margin: 0 auto;
         font-size:48px; ;
-        margin-bottom: 60%!important;
+        margin-bottom: 40%!important;
     }
     .contactFull{
         height: 100vh;
     }
     .container , .workInquiry{
         margin: 3% auto!important;
+    }
+    .paragraph1{
+        margin-top: 30px!important;
+        font-size: 20px;
     }
 }
 
@@ -322,11 +330,12 @@ h1 {
     .workInquiry {
         text-align: center;
         flex-direction: column;
-        margin: 2% 1%;
-        width: 95%;
+        margin: 4% 8%!important;
+        width:84%;
     }
 
     .workHead {
+      
         text-align: center !important;
     }
 
@@ -341,13 +350,14 @@ h1 {
     }
 
     .workInquiry button {
-        font-size: 18px;
-        padding: 8px 10px;
-        margin-bottom: 5%;
+        font-size: 16px;
+        padding: 16px 20px;
+        margin-bottom: 8%;
     }
 
     .workHead {
-        font-size: 36px;
+        margin: 0 auto;
+        font-size: 32px;
     }
 
     h1 {
@@ -372,11 +382,15 @@ h1 {
     }
 
     .info h3 {
+        margin-top: 0;
+        margin-bottom: 8%;
         font-size: 20px;
     }
 
     .info h1 {
         font-size: 36px;
+        margin-bottom: 8%
+        ;
     }
 
     .info p {
@@ -401,13 +415,13 @@ h1 {
         padding: 0;
         width: 90%;
         font-size: 18px;
-        text-align: justify;
+  text-align: justify;
     }
 
     .startBtn {
         font-size: 16px;
         margin-top: 10%;
-        padding: 10px 16px;
+        padding: 16px 20px;
     }
 
     .detailBtn {
