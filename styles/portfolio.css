@@ -1,0 +1,102 @@
+.collapse,
+.navbar-collapse {
+    font-size: 16px;
+    justify-content: flex-end !important;
+    margin-right: 140px;
+}
+
+.navbar {
+    background-color: #F9F7FE !important;
+}
+
+.firstView {
+    background-color: #F9F7FE;
+    height: 100vh;
+}
+
+.navbar-brand {
+    margin-left: 165px;
+}
+
+
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 4% auto;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.startBtn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin: 2% auto;
+    background-color: #6C63FF;
+    color: white;
+    border-radius: 4px;
+    padding: 18px 30px;
+}
+
+.paragraph1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 3%;
+    text-align: center;
+
+}
+
+.pHeading {
+    display: block;
+    margin: 5% auto;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.intro {
+    margin-top: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.webImage{
+    height: 560px;
+width: 560px;
+
+border-radius: 0px;
+
+}
+
+.detailBtn{
+    margin-top: 68px;
+    padding: 18px 25px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    color: #6C63FF;
+    border: 1px solid #6C63FF ;
+    border-radius: 4px;
+}
+.container{
+    margin: 10% 5%;
+}
