@@ -14,8 +14,9 @@
     height: 100vh;
 }
 
-.navbar-brand {
-    margin-left: 165px;
+.container-fluid{
+    padding-left: 10%;
+width: 100vw;
 }
 
 
@@ -109,8 +110,14 @@ h1 {
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
     color: #6C63FF;
+    transition: 0.5s;
     border: 1px solid #6C63FF;
     border-radius: 4px;
+}
+
+.detailBtn:hover{
+    background-color: #6C63FF;
+    color: white;
 }
 
 .container {
@@ -124,6 +131,7 @@ h1 {
 .workInquiry {
 
     background-color: #F9F7FE;
+    width: 100vw;
     margin: 10% 5%;
     border-radius: 20px;
     text-align: center;
@@ -209,4 +217,73 @@ font-size: 24px;
 
 .imageFlex div {
     margin: 2%;
+}
+
+
+@media(max-width: 576px){
+    
+    img {
+        width: 80vw!important;
+        height: auto!important;
+    }
+    .introImg{
+        display: none;
+    }
+    .navbar-brand{
+      
+        
+        margin-left: 0;
+    }
+    .icon{
+        width: 100px!important;
+        height: auto;
+    }
+    .email{
+        font-size: 16px;
+    }
+    .icons{
+        margin: 5% 10%;
+    }
+    .socialIcon{
+        justify-content: space-between;
+        width: 40px!important;
+    }
+    .workInquiry{
+        margin: 2% 1%;
+        width: 95%;
+    }
+    .workInquiry button{
+        font-size: 18px;
+        padding: 8px 10px;
+        margin-bottom: 5%;
+    }
+    .workHead{
+        font-size: 36px;
+    }
+    h1{
+        font-size: 48px;
+        margin-bottom: 15%;
+        
+    }
+    .pHeading{
+        font-size: 36px;
+        text-align: center;
+        margin: 8% 0;
+        padding: 0;
+    }
+    .intro{
+        margin: 0;
+        padding:0;
+        width: 90%;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .startBtn{
+        font-size: 16px;
+        margin-top: 10%;
+        padding: 10px 16px;
+    }
+    .detailBtn{
+        padding: 16px 20px;
+    }
 }
